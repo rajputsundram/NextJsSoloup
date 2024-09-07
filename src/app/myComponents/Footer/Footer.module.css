@@ -1,0 +1,151 @@
+
+
+
+
+
+.InputSignUp{
+    /* background-color: blueviolet; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.InputSignUp input{
+    height: 50px;
+    width: 80%;
+    padding-inline-start: 10px;
+    outline: none;
+}
+
+.signUpBtn{
+    /* border: 2px solid black; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    color: white;
+    background-color: rgb(6, 6, 56);
+}
+
+.getInTouch{
+    background-color: rgb(3, 3, 27);
+    width: 20%;
+    padding-inline-start: 30px;
+}
+
+.getInTouch h2{
+    margin: 20px 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.address{
+    display: flex;
+    height: 25px;
+    font-size: 18px;
+    margin: 5px 0;
+   
+
+}
+.address span{
+    color: rgb(9, 182, 225);
+}
+.address p{
+   
+    margin-left: 10px;
+    color: white;
+    
+}
+
+.email{
+    display: flex;
+    height: 25px;
+    font-size: 18px;
+    margin: 5px 0;
+
+
+}
+.email span{
+    color: rgb(9, 182, 225);
+}
+.email p{
+ 
+    margin-left: 10px;
+    color: white;
+}
+.phoneNumb{
+    display: flex;
+    height: 25px;
+    margin: 5px 0;
+    font-size: 18px;
+
+}
+.phoneNumb span{
+    color: rgb(9, 182, 225);
+}
+.phoneNumb p{
+    margin-left: 10px;
+    color: white;
+}
+.socialMediaicons{
+    /* background-color: black; */
+    height: 80px;
+    margin-top: 30px;
+
+}
+
+.socialMediaicons span{
+    background-color:rgb(9, 182, 225) ;
+ 
+height: 40px;
+width: 40px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+color: white;
+ 
+    margin: 5px;
+}
+
+.quickLinks{
+    background-color: rgb(3, 3, 27);
+    width: 20%;
+    padding-inline-start: 10px;
+}
+.quickLinks h2{
+    margin: 20px 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.quickLinks .links{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+
+
+}
+.quickLinks .links a{
+    text-decoration: none;
+    color: white;
+}
+
+.links .linkIcons{
+    font-size: 25px;
+    color: rgb(9, 182, 225);
+}
+
+.copyRight{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 3, 27);
+    color: white;
+
+}
