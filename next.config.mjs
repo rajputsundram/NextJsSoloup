@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output:"export",
-};
-
-export default nextConfig;
+    output: "export",
+    basePath: '/NextJsSoloup',
+    assetPrefix: '/NextJsSoloup',
+    trailingSlash: true,
+  };
+  
+  export default nextConfig;
+  
