@@ -7,11 +7,7 @@ name: Deploy Next.js site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-<<<<<<< HEAD
-    branches: ["master"]
-=======
     branches: ["main"]
->>>>>>> 09c6429052bafac5c1ceb703d21ba853110db690
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -45,8 +41,8 @@ jobs:
             exit 0
           elif [ -f "${{ github.workspace }}/package.json" ]; then
             echo "manager=npm" >> $GITHUB_OUTPUT
-            echo "command=ci" >> $GITHUB_OUTPUT
-            echo "runner=npx --no-install" >> $GITHUB_OUTPUT
+            echo "command=ci" >> $GITHUB OUTPUT
+            echo "runner=npx --no-install" >> $GITHUB OUTPUT
             exit 0
           else
             echo "Unable to determine package manager"
